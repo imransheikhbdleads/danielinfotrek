@@ -45,22 +45,19 @@ const PricingSection = () => {
               {/* Price */}
               <div className="mb-8">
                 <span className="text-5xl md:text-6xl font-bold text-accent">
-                  ৳---
+                  ৳599
                 </span>
-                <p className="text-primary-foreground/60 text-sm mt-2">
-                  (মূল্য চেকআউট পেজে দেখুন)
-                </p>
               </div>
 
               {/* Features */}
               <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
                 <div className="flex items-center justify-center gap-2 text-primary-foreground/90">
                   <Truck className="w-5 h-5" />
-                  <span>Cash on Delivery</span>
+                  <span>সারা বাংলাদেশে ফ্রি ডেলিভারি</span>
                 </div>
                 <div className="flex items-center justify-center gap-2 text-primary-foreground/90">
                   <Clock className="w-5 h-5" />
-                  <span>২-৫ দিনে ডেলিভারি</span>
+                  <span>Cash on Delivery</span>
                 </div>
               </div>
 

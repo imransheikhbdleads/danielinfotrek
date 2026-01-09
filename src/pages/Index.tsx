@@ -1,4 +1,3 @@
-import StickyHeader from "@/components/landing/StickyHeader";
 import HeroSection from "@/components/landing/HeroSection";
 import TrustStrip from "@/components/landing/TrustStrip";
 import VideoSection from "@/components/landing/VideoSection";
@@ -15,7 +14,6 @@ import Footer from "@/components/landing/Footer";
 const Index = () => {
   return (
     <main className="min-h-screen">
-      <StickyHeader />
       <HeroSection />
       <TrustStrip />
       <VideoSection />
