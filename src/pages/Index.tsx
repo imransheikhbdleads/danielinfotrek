@@ -1,13 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import StickyHeader from "@/components/landing/StickyHeader";
+import HeroSection from "@/components/landing/HeroSection";
+import TrustStrip from "@/components/landing/TrustStrip";
+import VideoSection from "@/components/landing/VideoSection";
+import CarouselSection from "@/components/landing/CarouselSection";
+import BenefitsSection from "@/components/landing/BenefitsSection";
+import ContentMapSection from "@/components/landing/ContentMapSection";
+import PdfViewerSection from "@/components/landing/PdfViewerSection";
+import FaqSection from "@/components/landing/FaqSection";
+import PricingSection from "@/components/landing/PricingSection";
+import OrderCtaSection from "@/components/landing/OrderCtaSection";
+import MobileBottomCta from "@/components/landing/MobileBottomCta";
+import Footer from "@/components/landing/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <StickyHeader />
+      <HeroSection />
+      <TrustStrip />
+      <VideoSection />
+      <CarouselSection />
+      <BenefitsSection />
+      <ContentMapSection />
+      <PdfViewerSection />
+      <FaqSection />
+      <PricingSection />
+      <OrderCtaSection />
+      <Footer />
+      <MobileBottomCta />
+    </main>
   );
 };
 
