@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ShoppingCart, MessageCircle } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 
 const MobileBottomCta = () => {
   return (
@@ -10,25 +10,15 @@ const MobileBottomCta = () => {
       className="fixed bottom-0 left-0 right-0 z-40 md:hidden"
     >
       <div className="bg-card/95 backdrop-blur-md border-t border-border shadow-strong p-3">
-        <div className="flex gap-3">
-          <a
-            href="https://danielinfotrek.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-1 btn-accent flex items-center justify-center gap-2 py-3"
-          >
-            <ShoppingCart className="w-5 h-5" />
-            Order Now
-          </a>
-          <a
-            href="https://wa.me/8801893077266"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-primary flex items-center justify-center gap-2 px-4"
-          >
-            <MessageCircle className="w-5 h-5" />
-          </a>
-        </div>
+        <a
+          href="https://danielinfotrek.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full btn-accent flex items-center justify-center gap-2 py-3"
+        >
+          <ShoppingCart className="w-5 h-5" />
+          Order Now
+        </a>
       </div>
     </motion.div>
   );
