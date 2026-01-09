@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { FileText, Maximize2 } from "lucide-react";
 
 const PdfViewerSection = () => {
-  const pdfUrl = "https://danielinfotrek.com/wp-content/uploads/2026/01/Contents-of-BCG-of-English.pdf";
+  const pdfUrl = "https://danielinfotrek.com/wp-content/uploads/2026/01/BCG-Crucial-gram-fa-imran.pdf";
 
   return (
     <section id="pdf-section" className="py-16 md:py-24 bg-background">

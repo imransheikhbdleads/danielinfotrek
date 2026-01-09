@@ -36,11 +36,11 @@ const HeroSection = () => {
             <div className="flex flex-wrap justify-center lg:justify-start gap-2 md:gap-3 mb-8">
               <div className="trust-badge">
                 <Truck className="w-4 h-4 text-primary" />
-                <span>Cash on Delivery</span>
+                <span>সারা বাংলাদেশে ফ্রি ডেলিভারি</span>
               </div>
               <div className="trust-badge">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>সারা বাংলাদেশে ডেলিভারি</span>
+                <span>Cash on Delivery</span>
               </div>
               <div className="trust-badge">
                 <TrendingUp className="w-4 h-4 text-primary" />

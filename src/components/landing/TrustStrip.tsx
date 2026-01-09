@@ -3,8 +3,8 @@ import { Star, Truck, Zap, Target } from "lucide-react";
 
 const trustItems = [
   { icon: Star, text: "হাজারো শিক্ষার্থীর পছন্দ" },
-  { icon: Truck, text: "COD Available" },
-  { icon: Zap, text: "Fast Delivery" },
+  { icon: Truck, text: "সারা বাংলাদেশে ফ্রি ডেলিভারি" },
+  { icon: Zap, text: "Cash on Delivery" },
   { icon: Target, text: "Exam Focused" },
 ];
 
