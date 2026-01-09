@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { MessageCircle } from "lucide-react";
 
 const StickyHeader = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,23 +35,12 @@ const StickyHeader = () => {
             </span>
           </div>
 
-          <div className="flex items-center gap-2 md:gap-4">
-            <button
-              onClick={scrollToOrder}
-              className="btn-primary text-sm md:text-base px-4 md:px-6 py-2 md:py-3"
-            >
-              অর্ডার করুন
-            </button>
-            <a
-              href="https://wa.me/8801893077266"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-accent text-accent-foreground px-3 md:px-4 py-2 md:py-3 rounded-xl font-medium transition-all hover:scale-105"
-            >
-              <MessageCircle className="w-4 h-4 md:w-5 md:h-5" />
-              <span className="hidden sm:inline">WhatsApp</span>
-            </a>
-          </div>
+          <button
+            onClick={scrollToOrder}
+            className="btn-primary text-sm md:text-base px-4 md:px-6 py-2 md:py-3"
+          >
+            অর্ডার করুন
+          </button>
         </div>
       </div>
     </motion.header>
